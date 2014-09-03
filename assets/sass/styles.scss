@@ -1,3 +1,26 @@
 // customize bootstrap variables here:
 @import "variables";
 @import "bootstrap";
+@import "../bower_components/fontawesome/scss/font-awesome";
+@import "../bower_components/typeplate-starter-kit/scss/_typeplate";
+@import "CSS:../bower_components/webfont-opensans/stylesheet";
+@import "CSS:../bower_components/semantic-ui/build/packaged/css/semantic.min";
+
+#construction{
+@extend .tera;
+    @extend .col-md-12;
+    height:100%;
+    width: 100%;
+    .txt{
+        text-align: center;
+        padding:5% 0;
+        vertical-align: middle;
+    }
+    img{
+        width:60px;
+        height:60px;
+    }
+}
+.row{
+    margin: 0 !important;
+}
